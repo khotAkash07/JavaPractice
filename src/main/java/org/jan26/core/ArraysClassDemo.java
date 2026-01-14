@@ -28,8 +28,8 @@ public class ArraysClassDemo {
 
         //Binary Search
         System.out.println("\n------------- Binary Search -------------");
-        int bvalue = Arrays.binarySearch(arr, 100);
-        System.out.println(bvalue);
+        int value = Arrays.binarySearch(arr, 100);
+        System.out.println(value);
 
     }
 }
