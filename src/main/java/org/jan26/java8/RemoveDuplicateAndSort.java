@@ -24,5 +24,12 @@ public class RemoveDuplicateAndSort {
 
        int secHigh = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(0);
        System.out.println(secHigh);
+
+       String str = "hello world";
+                str
+              .chars()
+              .mapToObj(c -> (char) c)
+              .collect(Collectors.groupingBy(word -> word, Collectors.counting()))
+                        .entrySet().forEach(System.out::println);
     }
 }
