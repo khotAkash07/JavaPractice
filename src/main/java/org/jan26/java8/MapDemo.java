@@ -13,5 +13,6 @@ public class MapDemo {
         map.put(105, "E");
 
         map.entrySet().forEach(System.out::println);
+
     }
 }
