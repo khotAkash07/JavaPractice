@@ -21,5 +21,8 @@ public class RemoveDuplicateAndSort {
                 new Employee(4,"Digvijay",50000,"IT"),
                 new Employee(5,"Sonya",60000,"Chemical")
        ).collect(Collectors.groupingBy(Employee::dept)).entrySet().forEach(System.out::println);
+
+       int secHigh = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(0);
+       System.out.println(secHigh);
     }
 }
