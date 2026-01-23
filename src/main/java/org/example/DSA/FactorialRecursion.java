@@ -15,7 +15,6 @@ public class FactorialRecursion {
         System.out.println("Enter number to find factorial :");
         int result =  new FactCalculator().fact(sc.nextInt());
         System.out.println(result);
-
         sc.close();
     }
 }
