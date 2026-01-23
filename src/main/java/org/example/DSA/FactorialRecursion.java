@@ -3,7 +3,6 @@ package org.example.DSA;
 import java.util.*;
 
 class FactCalculator{
-
     public int fact(int n){
         return n==1?1: fact(n-1) * n;
     }
