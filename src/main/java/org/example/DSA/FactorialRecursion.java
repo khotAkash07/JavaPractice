@@ -10,6 +10,7 @@ class FactCalculator{
 public class FactorialRecursion {
     public static void main(String[] ars){
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number to find factorial :");
         int result =  new FactCalculator().fact(sc.nextInt());
