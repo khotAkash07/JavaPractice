@@ -10,7 +10,6 @@ public class Java_17_Demo {
                             Akash
                             Anil
                             Khot
-                            2tf4
                             """;
         System.out.println(nameAndAge);
         //System.out.println(nameAndAge.repeat(4));
@@ -25,7 +24,14 @@ public class Java_17_Demo {
         };
         System.out.println(str);
 
-
+        choice = input.nextInt();
+        String day = switch (choice){
+            case 1 -> "Sunday";
+            case 2, 4 -> "Monday";
+            case 3 -> "Tuesday";
+            default -> null;
+        };
+        System.out.println(day);
     }
 
     static{
