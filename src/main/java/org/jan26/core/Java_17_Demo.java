@@ -33,7 +33,6 @@ public class Java_17_Demo {
         };
         System.out.println(day);
     }
-
     static{
         int a = 10;
         System.out.println(a);
