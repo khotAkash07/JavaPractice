@@ -11,6 +11,7 @@ class OldPayment{
 }
 
 class PaymentAdapter implements Payment{
+
     private final OldPayment oldPayment;
     public PaymentAdapter(OldPayment oldPayment){
         this.oldPayment = oldPayment;
