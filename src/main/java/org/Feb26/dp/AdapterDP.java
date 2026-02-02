@@ -21,7 +21,6 @@ class PaymentAdapter implements Payment{
 }
 
 public class AdapterDP{
-
     public static void main(String[] args){
 
         Payment payment = new PaymentAdapter(new OldPayment());
