@@ -12,10 +12,10 @@ class OldPayment{
 
 class PaymentAdapter implements Payment{
 
-    private OldPayment oldPayment;
+    private final OldPayment oldPayment;
 
     public PaymentAdapter(OldPayment oldPayment){
-        boolean b = this.oldPayment == oldPayment;
+        this.oldPayment = oldPayment;
     }
 
     public void pay(){
