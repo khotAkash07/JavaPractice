@@ -3,13 +3,10 @@ package org.Feb26.dp;
 class SingletonDemo{
 
     private static SingletonDemo singletonDemo;
-
     private SingletonDemo(){}
-
     public static SingletonDemo getInstance(){
         if(singletonDemo == null)
             singletonDemo = new SingletonDemo();
-
         return singletonDemo;
     }
 }
