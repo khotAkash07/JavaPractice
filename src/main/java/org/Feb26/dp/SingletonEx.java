@@ -9,6 +9,7 @@ class SingletonDemo{
             singletonDemo = new SingletonDemo();
         return singletonDemo;
     }
+
 }
 public class SingletonEx {
     public static void main(String[] args) {
