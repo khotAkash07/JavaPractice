@@ -13,6 +13,7 @@ class SingletonDemo{
 }
 public class SingletonEx {
     public static void main(String[] args) {
+
         SingletonDemo demo1 = SingletonDemo.getInstance();
         SingletonDemo demo2 = SingletonDemo.getInstance();
 
