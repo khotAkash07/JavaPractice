@@ -19,5 +19,6 @@ public class SingletonEx {
 
         System.out.println(demo1.hashCode());
         System.out.println(demo2.hashCode());
+
     }
 }
