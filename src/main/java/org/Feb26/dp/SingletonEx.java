@@ -11,7 +11,6 @@ class SingletonDemo{
         return singletonDemo;
     }
 }
-
 public class SingletonEx {
     public static void main(String[] args) {
         SingletonDemo demo1 = SingletonDemo.getInstance();
