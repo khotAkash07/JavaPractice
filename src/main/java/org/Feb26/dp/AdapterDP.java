@@ -3,6 +3,7 @@ package org.Feb26.dp;
 interface Payment{
     void pay();
 }
+
 class OldPayment{
     public void oldPay(){
         System.out.println("This is old pay method");
