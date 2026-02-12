@@ -28,5 +28,4 @@ public class AdapterDP{
         payment.pay();
 
     }
-
 }
