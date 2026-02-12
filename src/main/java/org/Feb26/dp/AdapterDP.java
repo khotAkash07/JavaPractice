@@ -26,4 +26,5 @@ public class AdapterDP{
         Payment payment = new PaymentAdapter(new OldPayment());
         payment.pay();
     }
+
 }
