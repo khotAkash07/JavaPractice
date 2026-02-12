@@ -9,6 +9,7 @@ class OldPayment{
         System.out.println("This is old pay method");
     }
 }
+
 class PaymentAdapter implements Payment{
     private final OldPayment oldPayment;
     public PaymentAdapter(OldPayment oldPayment){
