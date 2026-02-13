@@ -17,7 +17,6 @@ class PaymentAdapter implements Payment{
         oldPayment.oldPay();
     }
 }
-
 public class AdapterDP{
     public static void main(String[] args){
 
