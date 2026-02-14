@@ -15,7 +15,6 @@ public class SingletonEx {
 
         SingletonDemo demo1 = SingletonDemo.getInstance();
         SingletonDemo demo2 = SingletonDemo.getInstance();
-
         System.out.println(demo1.hashCode());
         System.out.println(demo2.hashCode());
 
