@@ -5,7 +5,6 @@ class SingletonDemo{
     private static SingletonDemo singletonDemo;
     private SingletonDemo(){} //This is private constructor
     public static SingletonDemo getInstance(){
-
         if(singletonDemo == null)
             singletonDemo = new SingletonDemo();
         return singletonDemo;
